@@ -15,7 +15,7 @@ const Picture = ({ picture, modifySuperficialChoices }) => {
           <p className="picture-name-age">
             {name}, 
           </p>
-          <p className="picure-info">{desc}</p>
+          <p className="picture-info">{desc}</p>
         </div>
       </div>
 
