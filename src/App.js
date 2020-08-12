@@ -36,7 +36,7 @@ const App = () => {
           newPicture[activePicture].dislikedPictures.push(userId);
           newDislikedPictures.push(data[userId]);
 
-          setDislikedPictures(newLikedPicture);
+          setDislikedPictures(newLikedPictures);
           setPicture(removedPersonFromDataSrc(picture, userId));
         }
         break;
