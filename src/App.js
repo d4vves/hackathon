@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 // import Header from './components/Header';
 import Picture from './components/Picture';
+import StarRating from './components/starRating'
 
 import data from './data.json';
 
@@ -61,6 +62,7 @@ const App = () => {
           modifySuperficialChoices={modifySuperficialChoices}
           likedPicture={likedPictures}
         />
+        <StarRating />
       ) : (
         <> </>
       )}
