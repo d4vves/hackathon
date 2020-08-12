@@ -5,8 +5,8 @@
       "location":"Australia",
       "desc": "Sea turtle great barrier reef",
       "image": "1.jpg",
-      "likedUsers": [],
-      "dislikedUsers": [],
+      "likedPictures": [],
+      "dislikedPictures": [],
       "likedBy": [],
       "starRating": []
     },
@@ -60,8 +60,8 @@
         "location":"Australia",
         "desc": "Aerial of the Great Barrier Reef",
         "image": "6.jpg",
-        "likedUsers": [],
-        "dislikedUsers": [],
+        "likedPictures": [],
+        "dislikedPictures": [],
         "likedBy": [],
         "starRating": []
       }

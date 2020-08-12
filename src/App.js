@@ -17,36 +17,30 @@ const App = () => {
 
   const modifySuperficialChoices = (userId, action) => {
     const newPicture = [...picture];
-    const newLikedPicture = [...likedPicture];
+    const newLikedPictures = [...likedPictures];
     
-    const newDislikedPicture = [...dislikedPicture];
+    const newDislikedPictures = [...dislikedPictures];
 
     switch (action) {
       case 'ADD_TO_LIKED_PICTURES':
         if (!picture[activePicture].likedUsers.includes(userId)) {
           newPicture[activePicture].likedUsers.push(userId);
-          newLikedPicture.push(data[userId]);
+          newLikedPictures.push(data[userId]);
 
-          setLikedUsers(newLikedPicture);
+          setLikedUsers(newLikedPictures);
           setPicture(removedPersonFromDataSrc(picture, userId));
         }
         break;
       case 'ADD_TO_DISLIKED_PICTURE':
         if (!picture[activePicture].dislikedPictures.includes(userId)) {
           newPicture[activePicture].dislikedPictures.push(userId);
-          newDislikedPicture.push(data[userId]);
+          newDislikedPictures.push(data[userId]);
 
           setDislikedPictures(newLikedPictures);
           setPicture(removedPersonFromDataSrc(picture, userId));
         }
         break;
-      case 'ADD_TO_SUPERLIKED_PICTURES':
-        if (!picture[activePicture].superLikedUsers.includes(userId)) {
-          newPicture[activePicture].superLikedUsers.push(userId);
-          
-          setPicture(removedPictureFromDataSrc(picture, userId));
-        }
-        break;
+      
       default:
         return picture;
     }
