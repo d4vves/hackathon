@@ -1,0 +1,69 @@
+[
+    {
+      "id": 0,
+      "name": "Reef",
+      "location":"Australia",
+      "desc": "Sea turtle great barrier reef",
+      "image": "1.jpg",
+      "likedUsers": [],
+      "dislikedUsers": [],
+      "likedBy": [],
+      "starRating": []
+    },
+    {
+        "id": 1,
+        "name": "Reef",
+        "location":"Australia",
+        "desc": " Reef under the Sea",
+        "image": "2.jpg",
+        "likedUsers": [],
+        "dislikedUsers": [],
+        "likedBy": [],
+        "starRating": []
+      },
+      {
+        "id": 2,
+        "name": "Reef",
+        "location":"Australia",
+        "desc": "Aerial of Island off the coast of Australia",
+        "image": "3.jpg",
+        "likedUsers": [],
+        "dislikedUsers": [],
+        "likedBy": [],
+        "starRating": []
+      },
+      {
+        "id": 3,
+        "name": "Reef",
+        "location":"Australia",
+        "desc": "Lizard Island",
+        "image": "4.jpg",
+        "likedUsers": [],
+        "dislikedUsers": [],
+        "likedBy": [],
+        "starRating": []
+      },
+      {
+        "id": 4,
+        "name": "Reef",
+        "location":"Australia",
+        "desc": "Great Barrier Reef",
+        "image": "5.jpg",
+        "likedUsers": [],
+        "dislikedUsers": [],
+        "likedBy": [],
+        "starRating": []
+      },
+      {
+        "id": 5,
+        "name": "Reef",
+        "location":"Australia",
+        "desc": "Aerial of the Great Barrier Reef",
+        "image": "6.jpg",
+        "likedUsers": [],
+        "dislikedUsers": [],
+        "likedBy": [],
+        "starRating": []
+      }
+  ]
+  
