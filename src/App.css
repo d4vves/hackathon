@@ -7,6 +7,18 @@
   pointer-events: none;
 }
 
+.input {
+  display: none;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  transition: color 200ms;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

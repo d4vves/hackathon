@@ -1,35 +1,37 @@
-import StarRatings from './react-star-ratings'
+import React, { useState } from 'react'
+import { FaStar } from 'react-icons/fa'
 
-class Star extends Component {
-    changeRating(newRating, name) {
-        this.setState({
-            rating: newRating
-        })
-    }
-    render() {
-        return (
-            <StarRatings
-                rating={this.state.rating}
-                starRatedColor="gold"
-                starEmptyColor="grey"
-                changeRating={this.changeRating}
-                numberOfStars={5}
-                name='rating'
-            />
 
-        )
 
-    }
+const StarRating = () => {
+    const [rating, setRating] = useState(null)
+    const [hover, setHover] = useState(null)
+
+    return (
+    <div>
+        {[...Array(5)].map((star, i) => {
+            const ratingValue = i + 1
+
+            return (
+                <label>
+                    <input 
+                    type="radio" 
+                    name="rating" 
+                    value={ratingValue} 
+                    onClick={() => setRating(ratingValue)} 
+                    />
+                    <FaStar 
+                    className="star" 
+                    color={ratingValue <= (hover || rating) ? 'Gold' : 'Grey'} 
+                    size={50}
+                    onMouseEnter={() => setHover(ratingValue)} 
+                    onMouseLeave={() => setHover(null)}
+                    />
+                </label>
+            )
+        })}
+    </div>
+    )
 }
 
-class Rating extends Component {
-    render() {
-        return (
-            <StarRatings
-                rating={2.403}
-                starDimension="30px"
-                starSpacing="15px"
-            />
-        )
-    }
-}
+export default StarRating
