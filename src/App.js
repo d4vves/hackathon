@@ -16,9 +16,9 @@ const App = () => {
 
   const modifySuperficialChoices = (userId, action) => {
     const newPicture = [...picture];
-    const newLikedPicture = [...likedPicture];
+    const newLikedPicture = [...likedPictures];
     
-    const newDislikedPicture = [...dislikedPicture];
+    const newDislikedPicture = [...dislikedPictures];
 
     switch (action) {
       case 'ADD_TO_LIKED_PICTURES':
@@ -35,7 +35,7 @@ const App = () => {
           newPicture[activePicture].dislikedPictures.push(userId);
           newDislikedPicture.push(data[userId]);
 
-          setDislikedPictures(newLikedPictures);
+          setDislikedPictures(newLikedPicture);
           setPicture(removedPersonFromDataSrc(picture, userId));
         }
         break;
