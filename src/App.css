@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/*  ----- APP -------Start of APP STYLE HERE --------------------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  background-color: #f7f7f7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
