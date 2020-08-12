@@ -9,3 +9,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   justify-content: space-between;
 }
+
+.input {
+  display: none;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  transition: color 200ms;
+}
