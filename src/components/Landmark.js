@@ -12,7 +12,7 @@ export default function Landmark(props) {
     return (
         <div>
             <div className="background">
-                <img width='500px' height='600' src={props.currentLandmark.image} alt="landmark" />
+                <img width='500px' height='600px' src={props.currentLandmark.image} alt="landmark" />
             </div>
             <div className={`${showInfo ? 'info' : 'hideInfo'}`}>
                 <div className>
