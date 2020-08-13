@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Buttons from './components/Buttons'
 import Landmark from './components/Landmark'
 import data from './data.json';
-
+import Navbar from './components/Navbar'
 const App = () => {
+
   let [index, setIndex] = useState(0)
   let [currentLandmark, setCurrentLandmark] = useState(data[index])
   let [favoriteLandmarks, setFavoriteLandmarks] = useState([])
@@ -26,7 +28,7 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <p>NAVBAR COMPONENT</p>
+       <Navbar />
         <Landmark currentLandmark={currentLandmark} />
         <Buttons addLandmark={addLandmark} swapLandmark={swapLandmark} />
       </BrowserRouter>
@@ -34,6 +36,8 @@ const App = () => {
   );
 };
 
+
 export default App;
 
-
+  
+  

@@ -8,7 +8,7 @@ const Picture = ({ picture, modifySuperficialChoices }) => {
     <>
       <div className="picture">
         <div className="picture-photo">
-          <img src={`/images/users/${image}`} alt={name} />
+          <img src={`/images/pictures/${image}`} alt={name} />
         </div>
 
         <div className="picture-description">
