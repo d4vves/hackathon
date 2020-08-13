@@ -14,7 +14,7 @@ export default function Landmark(props) {
         <div>
             <section className="mainSection">
                 <div className="background">
-                    <img width='500px' height='600' src={props.currentLandmark.image} alt="landmark" />
+                    <img src={props.currentLandmark.image} alt="landmark" />
                 </div>
                 <div className={`${showInfo ? 'info' : 'hideInfo'}`}>
                     <span>{props.currentLandmark.name}</span>
