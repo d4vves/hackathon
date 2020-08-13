@@ -1,9 +1,9 @@
 # Hackathon    - GA Team 4
-## Application Name: World of Beauty 
+## Application Name: Wonderlist 
 
 ### ABOUT
 
-World of beauty is an elegant mobile first first design which allows users to choose between an almost infinite  list of landmark images from around the world. They can click on the landmark button to get a location, map and information about the landmark they are viewing. They can like or dislike landmark images to make a favorite list of these places. They can collect a beautiful collection of images from around the world or they can use our app to build a visual travel bucket list of all the places in the world they want to visit and go see. Now with the help of world of beauty the world is open up to all to view and explore. 
+Wonderlist is an elegant mobile first first design which allows users to choose between an almost infinite  list of landmark images from around the world. They can click on the landmark button to get a location, map and information about the landmark they are viewing. They can like or dislike landmark images to make a favorite list of these places. They can collect a beautiful collection of images from around the world or they can use our app to build a visual travel bucket list of all the places in the world they want to visit and go see. Now with the help of world of beauty the world is open up to all to view and explore. 
 
 ## :memo: Getting Started
 
