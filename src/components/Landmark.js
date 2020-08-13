@@ -10,7 +10,9 @@ export default function Landmark(props) {
     }
 
     return (
+       
         <div>
+             <section className="mainSection">
             <div className="background">
                 <img width='500px' height='600' src={props.currentLandmark.image} alt="landmark" />
             </div>
@@ -19,6 +21,8 @@ export default function Landmark(props) {
                     <span>{props.currentLandmark.name}</span>
                     <span>{props.currentLandmark.city}, {props.currentLandmark.country}</span>
                 </div>
+
+                <div className="">
                 <div>
                     <span>{props.currentLandmark.language}</span>
                     <span>{props.currentLandmark.currency}</span>
@@ -31,11 +35,12 @@ export default function Landmark(props) {
                     <span>{props.currentLandmark.desc}</span>
                 </div>
             </div>
-            <div>
-                <button className="button" onClick={toggleInfo}>
+            <div className="button">
+                <div className="button" onClick={toggleInfo}>
                     <Compass />
-                </button>
+                </div>
             </div>
+            </section>
         </div>
     )
 }
