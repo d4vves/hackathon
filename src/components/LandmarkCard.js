@@ -13,7 +13,7 @@ export default function LandmarkCard(props) {
                         <img src='https://image.flaticon.com/icons/svg/117/117479.svg' width='15px'/>
                         {props.city}, {props.country}
                     </p>
-                <p className='landmark-description'>{props.desc.substring(0, 20)}...</p>
+                <p className='landmark-description'>{props.desc.substring(0, 50)}...</p>
                 <StarRating />
             </div>
 

@@ -74,14 +74,14 @@ body {
 .landmark-card {
 	width: 90%;
 	max-width: 400px;
-	margin: 0 auto;
+	margin: 0 auto 3vh;
 	display: flex;
 	box-shadow: 0 0 5px #000000, 0 0 5px #ffffff;
 	border-radius: 4px;
 }
 
 .landmark-image {
-	height: 15vh;
+	height: 20vh;
 	margin-right: 3vw;
 }
 
@@ -92,6 +92,7 @@ body {
 
 .landmark-info {
 	display: flex;
+	width: 100%;
 	flex-direction: column;
 	margin-top: 1vh;
 }
@@ -121,4 +122,5 @@ body {
 
 .star-row {
 	text-align: right;
+	margin-right: 2vw;
 }
