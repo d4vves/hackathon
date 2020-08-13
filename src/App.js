@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import './App.css';
 import Buttons from './components/Buttons'
 import Landmark from './components/Landmark'
@@ -27,8 +27,16 @@ const App = () => {
     <>
       <BrowserRouter>
         <p>NAVBAR COMPONENT</p>
-        <Landmark currentLandmark={currentLandmark} />
-        <Buttons addLandmark={addLandmark} swapLandmark={swapLandmark} />
+        <Switch>
+          <Route path='/' render={props =>
+            <>
+              <Landmark currentLandmark={currentLandmark} />
+              <Buttons addLandmark={addLandmark} swapLandmark={swapLandmark} />
+            </>
+          } />
+          <Route path='/profile' />
+        </Switch>
+        
       </BrowserRouter>
     </>
   );

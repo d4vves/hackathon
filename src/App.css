@@ -14,11 +14,11 @@ ol, ul {
 	list-style: none;
 }
 .info span {
-  opacity: 10;
+  opacity: 1;
 }
 
 .hideInfo {
-  display: none;
+  opacity: 0;
 }
 
 
