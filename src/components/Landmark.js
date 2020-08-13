@@ -3,51 +3,24 @@ import Compass from './Compass'
 
 
 export default function Landmark(props) {
-
     const [showInfo, setShowInfo] = useState(false)
 
     function toggleInfo() {
         setShowInfo(!showInfo)
     }
 
-    //     this.showInfo = this.showInfo.bind(this)
-    //     this.closeInfo = this.closeInfo.bind(this)
-
-    // showInfo(event) {
-    //     event.preventDefault()
-
-
-    //     this.setState({ showInfo: true }, () => {
-    //         document.addEventListener('click', this.closeInfo)
-    //     })
-    // }
-
-    // closeInfo(event) {
-    //     if (!this.dropdownMenu.contains(event.target)) {
-    //         this.setState({ showInfo: false }, () => {
-    //             document.removeEventListener('click', this.closeInfo)
-    //         } )
-    //     }
-    // }
-
-    // showInfo(event) {
-    //     event.preventDefault()
-    //     this.setState({
-    //         showInfo: true
-    //     })
-    // }
     return (
         <div>
             <div className="background">
-                <img src={""} />
+                <img width='500px' src={props.currentLandmark.image} />
             </div>
             <div className={`${showInfo ? 'info' : 'hideInfo'}`}>
                 <div className>
-                    <span>{props.name}HELLO</span>
-                    <span>{props.location}</span>
+                    <span>{props.currentLandmark.name}</span>
+                    <span>{props.currentLandmark.city}, {props.currentLandmark.country}</span>
                 </div>
                 <div className className>
-                    <span>{props.desc}</span>
+                    <span>{props.currentLandmark.desc}</span>
                 </div>
             </div>
             <div>
