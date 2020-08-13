@@ -6,6 +6,6 @@ export default function Compass() {
     //     document.querySelector('div').on('click', function(){this.toggleClass('show-description');});
     // }
     return (
-            <FaCompass size={50} />
+            <FaCompass size={40} />
     )
 }

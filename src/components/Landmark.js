@@ -10,29 +10,31 @@ export default function Landmark(props) {
         setShowInfo(!showInfo)
     }
 
-    function toggleName() {
-        setHideName(!hideName)
-    }
-
     return (
        
         <>
                 <div className="background">
-                    <img height='525px' src={props.currentLandmark.image} alt="landmark" />
+                    <img height='550px' src={props.currentLandmark.image} alt="landmark" />
                 </div>
                     <div className={`wrapper ${showInfo ? 'info' : 'hideInfo'}`}>
                         <p className="landmarkName">{props.currentLandmark.name}</p>
-                        <p>{props.currentLandmark.city}, {props.currentLandmark.country}</p>
+                        <p className='landmarkLocation'>{props.currentLandmark.city}</p>
+                        <p className='landmarkLocation'>{props.currentLandmark.country}</p>
                         <div className="landmarkInfo">
                             <p>Language: {props.currentLandmark.language}</p>
                             <p>Currency: {props.currentLandmark.currency}</p>
                             <p>Climate: {props.currentLandmark.climate}</p>
                         </div>
                         <div>
-                            <img className="image2" width="200px" height="100px" src={props.currentLandmark.location} alt="landmark-location"/>
+                            <img className="image2" width="150px" src={props.currentLandmark.location} alt="landmark-location"/>
                         </div>
                         <div>
-                            <p>{props.currentLandmark.desc}</p>
+                            <p className='landmarkDescription'>{props.currentLandmark.desc}</p>
+                        </div>
+                        <div className='check-it-wrapper'>
+                            <p className='check-it'>Check it out</p>
+                            <p className='check-it-desc'>{props.currentLandmark.check}</p>
+                            <p className='check-it-link'>Read more ></p>
                         </div>
                     </div>
                     <div className={`title ${!showInfo ? 'name' : 'hideName'}`}>

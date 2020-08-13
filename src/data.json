@@ -1,15 +1,16 @@
 [
     {
       "name": "Great Barrier Reef",
-      "city": "Queensland",
+      "city": "North Queensland",
       "country":"Australia",
-      "desc": "The Great Barrier Reef is the world's largest coral reef system composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometres over an area of approximately 344,400 square kilometres.",
+      "desc": "The Great Barrier Reef is one of the 7 Natural Wonders of the world. It is larger than Switzerland, Holland and the United Kingdom combined. A habitat for rare and threatened species of plants and animals, it is protected by the Australian government and it one of the World Heritage Sites. It is home to a diverse range of marine life and is the worlds largest reef system.",
       "image": "https://images.unsplash.com/photo-1540158658566-1e618312817b?ixlib=rb-1.2.1&auto=format&fit=crop&w=641&q=80",
       "language": "English",
-      "currency": "Dollars",
-      "climate": "Subtropical",
+      "currency": "AUD - Australian Dollars",
+      "climate": "Tropical, mild and sunny weather.",
       "location": "https://qph.fs.quoracdn.net/main-qimg-fd60f693063eeb98b04cb43667bdff08",
-      "starRating": 0
+      "starRating": 0,
+      "check": "The Great Barrier Reef is the world's largest living organism."
     },
     {
       "name": "Denali",
@@ -21,7 +22,8 @@
       "currency": "Dollars",
       "climate": "Temperate",
       "location": "https://nomadlyweds.com/wp-content/uploads/2019/08/denali-national-park-alaska-location-1024x725.jpg",
-      "starRating": 0
+      "starRating": 0,
+      "check": "In August 2015, with President Barack Obama's approval, the U.S. Department of the Interior officially renamed the mountain Denali."
     },
     {
       "name": "Taj Mahal",
@@ -33,7 +35,8 @@
       "currency": "Rupee",
       "climate": "Tropical",
       "location": "https://whereismap.net/wp-content/uploads/2018/05/Where-the-Taj-Mahal-is-located-On-A-Map-800x445.jpg",
-      "starRating": 0
+      "starRating": 0,
+      "check": "The name Taj Mahal means “crown of palaces”. Construction of the Taj Mahal took around 20 years, beginning around 1632 and finishing around 1653. The Taj Mahal is made of white marble."
     },
     {
       "name": "La Sagrada Familia",
@@ -45,7 +48,8 @@
       "currency": "Euros",
       "climate": "Mediterranean",
       "location": "https://thebettervacation.com/wp-content/uploads/2018/02/Map-of-Sagrada-Familia-to-Park-Guell-by-taxi.jpg",
-      "starRating": 0
+      "starRating": 0,
+      "check": "Together with six other buildings in Barcelona, part of la Sagrada Família is a UNESCO World Heritage Site, as testifying to its exceptional creative contribution to the development of architecture."
     },
     {
       "name": "The Great Wall",
@@ -57,7 +61,8 @@
       "currency": "Yen",
       "climate": "Semi-Tropical",
       "location": "https://akellaway20151.weebly.com/uploads/5/1/1/7/51176787/75783.png?898",
-      "starRating": 0
+      "starRating": 0,
+      "check": "A comprehensive archaeological survey, using advanced technologies, has concluded that the walls built by the Ming dynasty measure 8,850 km (5,500 mi)."
     },
     {
       "name": "Eiffel Tower",
@@ -69,7 +74,8 @@
       "currency": "Euros",
       "climate": "Temperate",
       "location": "https://www.google.com/maps/d/u/0/thumbnail?mid=1NcqzkcjMWsYja5uDYt1AdK3RE3I",
-      "starRating": 0
+      "starRating": 0,
+      "check": "For 41 years, the Eiffel Tower stood higher than any building or structure in the world—until it was surpassed by the Chrysler Building in New York, which topped out at 1046 feet."
     },
     {
       "name": "Angkor",
@@ -81,7 +87,8 @@
       "currency": "Riels",
       "climate": "Tropical",
       "location": "https://onewayfarers.files.wordpress.com/2015/03/screen-shot-2015-03-20-at-9-47-43-pm.png",
-      "starRating": 0
+      "starRating": 0,
+      "check": "Angkor Wat is spread across over 400 acres / 1.6 km², and is said to be the largest religious monument in the world."
     },
     {
       "name": "Victoria Falls",
@@ -93,7 +100,8 @@
       "currency": "Euros",
       "climate": "Temperate",
       "location": "https://www.africaalbidatourism.com/wp-content/uploads/2018/05/Victoria-Falls-Map.png",
-      "starRating": 0
+      "starRating": 0,
+      "check": "It is located on the border between Zambia and Zimbabwe and is considered to be one of the world's largest waterfalls due to its width of 1,708 metres."
     },
     {
       "name": "St. Basil's Cathedral",
@@ -105,6 +113,7 @@
       "currency": "Rubles",
       "climate": "Continental",
       "location": "http://www.worldeasyguides.com/wp-content/uploads/2014/02/St-Basils-Cathedral-on-Map-of-Moscow.jpg",
-      "starRating": 0
+      "starRating": 0,
+      "check": "Built around the 156-foot high central nave are nine small, separate that are aligned to points on the compass, four of which are raised to designate their position between heaven and earth."
     }
 ]
