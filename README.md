@@ -1,68 +1,81 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hackathon    - GA Team 4
+## Application Name: World of Beauty 
 
-## Available Scripts
+### ABOUT
 
-In the project directory, you can run:
+World of beauty is an elegant mobile first first design which allows users to choose between an almost infinite  list of landmark images from around the world. They can click on the landmark button to get a location, map and information about the landmark they are viewing. They can like or dislike landmark images to make a favorite list of these places. They can collect a beautiful collection of images from around the world or they can use our app to build a visual travel bucket list of all the places in the world they want to visit and go see. Now with the help of world of beauty the world is open up to all to view and explore. 
 
-### `npm start`
+## :memo: Getting Started
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### TEAM PLANNING 
+For the “ Hackathon “ our team of six was given 28 hours to work together and come up with a working project or proof of concept application. We started with brainstorming and going over different project ideas. After going over different project ideas the group of 3 UX designers and 3 Software developers finally settled on a project idea they liked and felt they could accomplish in 28 hours ! 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### UX DESIGN & PLANNING
+The UX team broke off into a separate working group and started on the design and layout. This is a small example of some of their working examples. 
 
-### `npm test`
+![](https://i.imgur.com/KfbTTTC.png)
+:::
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###  DEVELOPMENT TEAM 
 
-### `npm run build`
+After initial project planning the development team started working on basic functionality and routing.  Attached are some of the technologies we used and steps in our coding process. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](https://i.imgur.com/6RkurhQ.png)
+:::
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### TECKNOLOGIES USED 
+1.HTML:5
+2.CSS:3
+3.Node.js 
+4.JavaScript
+5.React.js
+6.Mock Data - JSON Data
 
-### `npm run eject`
+### Step 2: LAYOUT AND GETTING GOING 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [x] Create a  HackMD README (this one!)
+- [X] Create Wire Frame
+- [X] Create E.R.D
+- [X] Use React Router, make a list of routes, NPM and data.json file content and structure. 
+- [x] Write Pseudo Code to layout ideas and requirments.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+:rocket: 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Step 3: BUILD A MOCK-DATABASE for Hackathon
+### Data.json: Example
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[
+    {
+      "name": "Great Barrier Reef",
+      "city": "Queensland",
+      "country":"Australia",
+      "desc": "Sea turtle great barrier reef",
+      "image": "https://images.unsplash.com/photo-1540158658566-...,
+      "language": "English",
+      "currency": "Dollars",
+      "climate": "Subtropical",
+      "location": "https://qph.fs.quoracdn.net/main-qimg-...: 0
+    },
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### FINISHING UP 
 
-### Analyzing the Bundle Size
+After coding late into the night the development team finished all of the major functionality. Morning of deployment we all got together to finish style, formatting, and going over final design and presentation details. See what we created in a 28 hour time limit or little over 1 day !
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+----------
 
-### Making a Progressive Web App
+### MEET THE TEAM 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+![](https://i.imgur.com/PiDvv58.png)
+:::
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+- Table of Content
+[ToC]
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
