@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Compass from './Compass'
+import Compass from './svg/Compass'
 
 
 export default function Landmark(props) {
@@ -31,9 +31,3 @@ export default function Landmark(props) {
         </div>
     )
 }
-
-
-
-// show-description 
-// info {opacity: 100;}
-

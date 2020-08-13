@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import './App.css';
 import Buttons from './components/Buttons'
 import Landmark from './components/Landmark'
@@ -28,9 +27,16 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-       <Navbar />
-        <Landmark currentLandmark={currentLandmark} />
-        <Buttons addLandmark={addLandmark} swapLandmark={swapLandmark} />
+      <Navbar />
+        <Switch>
+          <Route path='/' render={props =>
+            <>
+              <Landmark currentLandmark={currentLandmark} />
+              <Buttons addLandmark={addLandmark} swapLandmark={swapLandmark} />
+            </>
+          } />
+          <Route path='/profile' />
+        </Switch>
       </BrowserRouter>
     </>
   );
