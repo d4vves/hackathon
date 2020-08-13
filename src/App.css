@@ -104,3 +104,21 @@ input[type="radio"] {
 .star {
   transition: color 200ms;
 }
+
+.like-button {
+	width: 25%;
+	background-color: #248BC5;
+	border: none;
+	border-radius: 0.5em;
+	box-shadow: 0 0 3px #000000, 0 0 5px #ffffff;
+	outline: none;
+}
+
+.dislike-button {
+	width: 25%;
+	background-color: #DEF1FC;
+	border: none;
+	border-radius: 0.5em;
+	box-shadow: 0 0 3px #000000, 0 0 5px #ffffff;
+	outline: none;
+}
