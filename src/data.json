@@ -1,63 +1,18 @@
 [
     {
-      "id": 0,
-      "name": "Reef",
-      "location":"Australia",
+      "name": "Great Barrier Reef",
+      "city": "Queensland",
+      "country":"Australia",
       "desc": "Sea turtle great barrier reef",
-      "image": "1.jpg",
-      "likedPictures": [],
-      "dislikedPictures": [],
-      "starRating": []
+      "image": "https://www.australia.com/content/dam/assets/photograph/digital/l/f/q/e/1000166.jpg",
+      "starRating": 0
     },
     {
-        "id": 1,
-        "name": "Reef",
-        "location":"Australia",
-        "desc": " Reef under the Sea",
-        "image": "2.jpg",
-        "likedPictures": [],
-        "dislikedPictures": [],
-        "starRating": []
-      },
-      {
-        "id": 2,
-        "name": "Reef",
-        "location":"Australia",
-        "desc": "Aerial of Island off the coast of Australia",
-        "image": "3.jpg",
-        "likedPictures": [],
-        "dislikedPictures": [],
-        "starRating": []
-      },
-      {
-        "id": 3,
-        "name": "Reef",
-        "location":"Australia",
-        "desc": "Lizard Island",
-        "image": "4.jpg",
-        "likedPictures": [],
-        "dislikedPictures": [],
-        "starRating": []
-      },
-      {
-        "id": 4,
-        "name": "Reef",
-        "location":"Australia",
-        "desc": "Great Barrier Reef",
-        "image": "5.jpg",
-        "likedPictures": [],
-        "dislikedPictures": [],
-        "starRating": []
-      },
-      {
-        "id": 5,
-        "name": "Reef",
-        "location":"Australia",
-        "desc": "Aerial of the Great Barrier Reef",
-        "image": "6.jpg",
-        "likedPictures": [],
-        "dislikedPictures": [],
-        "starRating": []
-      }
-  ]
-  
+      "name": "Denali",
+      "city": "Denali National Park",
+      "country":"United States",
+      "desc": "Denali is the highest mountain peak in North America, with a summit elevation of 20,310 feet above sea level.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Mount_McKinley_and_Denali_National_Park_Road_2048px.jpg",
+      "starRating": 0
+    }
+]
