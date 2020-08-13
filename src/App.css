@@ -20,6 +20,14 @@ body {
   opacity: 0;
 }
 
+.name {
+	opacity: 75%;
+}
+
+.hideName {
+	opacity: 0;
+}
+
 .navbar {
     width:100% ;
     height: 10vh;
@@ -39,6 +47,7 @@ body {
 	height: 10vw;
 	margin-top: 2vw;
 	margin-left: 4vw;
+	opacity: 50%;
 }
 
 .star {
@@ -50,21 +59,25 @@ body {
 }
 
 .like-button {
-	width: 25%;
+	width: 40%;
 	background-color: #248BC5;
 	border: none;
 	border-radius: 0.5em;
 	box-shadow: 0 0 3px #000000, 0 0 5px #ffffff;
 	outline: none;
+	z-index: 1;
+	margin-top: 2vh;
 }
 
 .dislike-button {
-	width: 25%;
+	width: 40%;
+	margin-top: 2vh;
 	background-color: #DEF1FC;
 	border: none;
 	border-radius: 0.5em;
 	box-shadow: 0 0 3px #000000, 0 0 5px #ffffff;
 	outline: none;
+	z-index: 1;
 }
 
 .background {
@@ -79,10 +92,34 @@ body {
 	border-radius: 1em;
 }
 
-.mainSection {
-	position: relative;
-	height: 80vh;
-	width: 100vw;
+.wrapper {
+	position: absolute;
+	color: black; 
+	font-weight: 200;
+	top: 400px;
+	right: 20px;
+	font-size: 15px;
+}
+
+.wrapper p {
+	margin-left: 1vh;
+}
+
+.landmarkInfo p {
+	margin: 0 0 0 2vw;
+}
+
+.image2 {
+	margin-left: 2vw;
+}
+
+.info {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 1em;
+	font-size: 15px;
+	width: 90%;
+	height: 100%;
+	top: 70px;
 }
 
 .picture {
@@ -90,30 +127,38 @@ body {
 	width: 100%;
 	z-index: -1;
 }
+.title {
+	position: absolute;
+	left: 20px;
+	bottom: 120px;
+	background: white;
+	font-size: 15px;
+	border-radius: 1em;
+	padding: 5px;
+	width: 200px;
+	margin-left: 1vw;
+
+}
+
+.landmarkName {
+	font-weight: bold;
+}
+
+.title p {
+	margin: 0;
+	font-weight: 700;
+}
 
 .button {
 height: 80px;
 width: 80px;
-left:70%;
-bottom: 20%;
-display: flex;
-justify-self: center;
-position: absolute;
-
-} 
-
-.mainSection {
-
+right: 5px;
+bottom: 85px;
 color: white;
-}
-
-.btnSection {
-	width: 100%;
-	height: 80px;
-	display: flex;
-	justify-content: space-evenly;
-	
+position: absolute;
 } 
+
+
 
  .btnArea {
 	 width: 100%;
