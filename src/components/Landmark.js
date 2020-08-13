@@ -16,9 +16,9 @@ export default function Landmark(props) {
 
     return (
        
-        <div>
+        <>
                 <div className="background">
-                    <img width='500px' height='600px' src={props.currentLandmark.image} alt="landmark" />
+                    <img height='525px' src={props.currentLandmark.image} alt="landmark" />
                 </div>
                     <div className={`wrapper ${showInfo ? 'info' : 'hideInfo'}`}>
                         <p className="landmarkName">{props.currentLandmark.name}</p>
@@ -36,12 +36,12 @@ export default function Landmark(props) {
                         </div>
                     </div>
                     <div className={`title ${!showInfo ? 'name' : 'hideName'}`}>
-                        <p>{props.currentLandmark.name}</p>
-                        <p>{props.currentLandmark.city}, {props.currentLandmark.country}</p>
+                        <p className='title-name'>{props.currentLandmark.name}</p>
+                        <p className='title-location'>{props.currentLandmark.city}, {props.currentLandmark.country}</p>
                     </div>
                     <div className="button" onClick={toggleInfo}>
                         <Compass />
                     </div>
-                </div>
+                </>
     )
 }
