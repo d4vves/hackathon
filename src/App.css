@@ -71,6 +71,12 @@ body {
 	outline: none;
 }
 
+.profile-header {
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 2vh;
+}
+
 .landmark-card {
 	width: 90%;
 	max-width: 400px;

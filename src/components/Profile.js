@@ -10,6 +10,7 @@ export default function Profile(props) {
     console.log(landmarkList)
     return (
         <div>
+            <h3 className='profile-header'>Where I'm Headed</h3>
             {landmarkList}
         </div>
     )
