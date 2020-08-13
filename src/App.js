@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom'
 import './App.css';
+// import Header from './components/Header';
+import Picture from './components/Picture';
+import StarRating from './components/starRating'
+import Landmark from './components/Landmark'
 import Buttons from './components/Buttons'
-
 import data from './data.json';
 
 const App = () => {
