@@ -7,7 +7,6 @@ export default function Profile(props) {
     props.favoriteLandmarks.map(landmark => (
         <LandmarkCard {...landmark} />
     ))
-    console.log(landmarkList)
     return (
         <div>
             <h3 className='profile-header'>Where I'm Headed</h3>
