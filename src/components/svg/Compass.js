@@ -6,7 +6,7 @@ export default function Compass() {
     //     document.querySelector('div').on('click', function(){this.toggleClass('show-description');});
     // }
     return (
-        <div>
+        <div className="button">
             <FaCompass size={50} />
         </div>
 
