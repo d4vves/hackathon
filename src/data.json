@@ -7,7 +7,6 @@
       "image": "1.jpg",
       "likedPictures": [],
       "dislikedPictures": [],
-      "likedBy": [],
       "starRating": []
     },
     {
@@ -16,9 +15,8 @@
         "location":"Australia",
         "desc": " Reef under the Sea",
         "image": "2.jpg",
-        "likedUsers": [],
-        "dislikedUsers": [],
-        "likedBy": [],
+        "likedPictures": [],
+        "dislikedPictures": [],
         "starRating": []
       },
       {
@@ -27,9 +25,8 @@
         "location":"Australia",
         "desc": "Aerial of Island off the coast of Australia",
         "image": "3.jpg",
-        "likedUsers": [],
-        "dislikedUsers": [],
-        "likedBy": [],
+        "likedPictures": [],
+        "dislikedPictures": [],
         "starRating": []
       },
       {
@@ -38,9 +35,8 @@
         "location":"Australia",
         "desc": "Lizard Island",
         "image": "4.jpg",
-        "likedUsers": [],
-        "dislikedUsers": [],
-        "likedBy": [],
+        "likedPictures": [],
+        "dislikedPictures": [],
         "starRating": []
       },
       {
@@ -49,9 +45,8 @@
         "location":"Australia",
         "desc": "Great Barrier Reef",
         "image": "5.jpg",
-        "likedUsers": [],
-        "dislikedUsers": [],
-        "likedBy": [],
+        "likedPictures": [],
+        "dislikedPictures": [],
         "starRating": []
       },
       {
@@ -62,7 +57,6 @@
         "image": "6.jpg",
         "likedPictures": [],
         "dislikedPictures": [],
-        "likedBy": [],
         "starRating": []
       }
   ]
