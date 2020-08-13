@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -7,6 +9,7 @@ body {
   background-color: #f7f7f7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
 }
 
 .info span {
@@ -18,35 +21,36 @@ body {
 }
 
 .navbar {
-	width:100% ;
-	height: 16vh;
-	display: flex;
-	flex-direction: row;
-	
-	align-content: space-between;
-	
+    width:100% ;
+    height: 16vh;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
 }
 
 .navpicture1 {
-	border-radius: 50%;  
-	height: 8.0vw;
-	width: 8.0vw;
-	display: flex;
-	padding-left: 10px;
-	padding: 20px;
-	
+    border-radius: 50%;
+    height: 8.0vw;
+    width: 8.0vw;
+    display: flex;
+    padding-left: 10px;
+    padding: 20px;
 }
 
 .navpicture2 {
-	padding-left: 10px;
-	padding: 20px;
-	top:10%;	
-  	height: 8.0vw;
-  	width: 8.0vw;
- 
+    padding-left: 10px;
+    padding: 20px;
+    top:10%;
+    height: 8.0vw;
+    width: 8.0vw;
 }
+
 .star {
   transition: color 200ms;
+}
+
+.radio {
+	display: none;
 }
 
 .like-button {
@@ -116,3 +120,64 @@ color: white;
 	 justify-content: space-evenly;
 	
  }
+
+.profile-header {
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 2vh;
+}
+
+.landmark-card {
+	width: 90%;
+	max-width: 400px;
+	margin: 0 auto 3vh;
+	display: flex;
+	box-shadow: 0 0 5px #000000, 0 0 5px #ffffff;
+	border-radius: 4px;
+}
+
+.landmark-image {
+	height: 20vh;
+	margin-right: 3vw;
+}
+
+.landmark-image img {
+	max-height: 100%;
+	border-radius: 4px 0 0 4px;
+}
+
+.landmark-info {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	margin-top: 1vh;
+}
+
+.landmark-info h4 {
+	margin: 0;
+	margin-bottom: 1vh;
+}
+
+.landmark-info p {
+	font-size: 14px;
+}
+
+.landmark-location {
+	margin: 0;
+}
+
+.landmark-location img {
+	margin-right: 1vw;
+}
+
+.landmark-description {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	color: #3c6e71;
+}
+
+.star-row {
+	text-align: right;
+	margin-right: 2vw;
+}
+
