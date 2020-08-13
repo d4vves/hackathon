@@ -24,7 +24,7 @@ body {
 	border-style:solid;
 	border-color: aqua;
 	display: flex;
-	justify-content: start;
+	justify-content: flex-start;
 	
 }
 

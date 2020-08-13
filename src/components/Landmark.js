@@ -19,7 +19,7 @@ export default function Landmark(props) {
                     <span>{props.currentLandmark.name}</span>
                     <span>{props.currentLandmark.city}, {props.currentLandmark.country}</span>
                 </div>
-                <div className className>
+                <div>
                     <span>{props.currentLandmark.desc}</span>
                 </div>
             </div>
