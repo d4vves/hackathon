@@ -4,8 +4,8 @@ import DislikeButton from './svg/DislikeButton'
 
 export default function Buttons(props) {
     return (
-        <div>
-            <DislikeButton swapLandmark={props.swapLandmark} />
+        <div className="btnArea"><DislikeButton swapLandmark={props.swapLandmark} /> 
+        
             <LikeButton addLandmark={props.addLandmark} />
         </div>
     )

@@ -8,13 +8,14 @@ const StarRating = () => {
     const [hover, setHover] = useState(null)
 
     return (
-    <div>
+    <div className='star-row'>
         {[...Array(5)].map((star, i) => {
             const ratingValue = i + 1
 
             return (
                 <label>
                     <input 
+                    className='radio'
                     type="radio" 
                     name="rating" 
                     value={ratingValue} 
@@ -22,8 +23,8 @@ const StarRating = () => {
                     />
                     <FaStar 
                     className="star" 
-                    color={ratingValue <= (hover || rating) ? 'Gold' : 'Grey'} 
-                    size={50}
+                    color={ratingValue <= (hover || rating) ? '#c2e1f3' : 'Grey'} 
+                    size={15}
                     onMouseEnter={() => setHover(ratingValue)} 
                     onMouseLeave={() => setHover(null)}
                     />
