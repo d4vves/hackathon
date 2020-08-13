@@ -24,7 +24,9 @@ body {
 	border-style:solid;
 	border-color: aqua;
 	display: flex;
-	justify-content: flex-start;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: space-around;
 	
 }
 
@@ -33,14 +35,15 @@ body {
 	height: 100px;
 	width: 100px;
 	display: flex;
-	justify-content: flex-start;
+	
 }
 
 .navpicture2 {
-	position: absolute;
-	left:20%;
+	
+	top:10%;	
   height: 100px;
   width: 100px;
+ 
 }
 
 .star {
